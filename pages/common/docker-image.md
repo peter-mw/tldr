@@ -8,6 +8,10 @@
 
 `docker image ls`
 
+- Stop all Docker containers:
+
+`docker stop $(docker ps -q)`
+
 - Delete unused local Docker images:
 
 `docker image prune`
